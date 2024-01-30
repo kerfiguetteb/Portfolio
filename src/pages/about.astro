@@ -3,6 +3,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+import CallToAction from '../components/CallToAction.astro';
+import Icon from '../components/Icon.astro';
 ---
 
 <BaseLayout title="Qui suis-je | Outman" description="Outman KERFI GUETTEB">
@@ -18,26 +20,23 @@ import Hero from '../components/Hero.astro';
 					src="/assets/at-work.jpg"
 					alt="photo de profil d'outman"
 				/>
+				<CallToAction href="/assets/CV.pdf">
+					Télécharger mon cv
+					<Icon icon="rocket-launch" size="1.2em" />
+				</CallToAction>				
 			</Hero>
+
+
 
 			<section>
 				<h2 class="section-title">Parcours</h2>
 				<div class="content">
 					<p>
-						 
+						Bonjour,
+
+						Je suis KERFI GUETTEB Outman, un développeur web passionné et engagé, spécialisé dans le développement web et mobile. Titulaire d'un titre professionnel de niveau 5 en développement web et web mobile, ainsi que d'une certification de développeur Java, j'ai entrepris une reconversion professionnelle il y a trois ans pour me consacrer pleinement à ma passion pour le monde du développement informatique. 
 					</p>
-					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
-					</p>
-					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
-					</p>
+				
 				</div>
 			</section>
 			<section>
@@ -48,11 +47,45 @@ import Hero from '../components/Hero.astro';
 				</div>
 			</section>
 			<section>
-				<h2 class="section-title">Skills</h2>
+				<h2 class="section-title">Expérience </h2>
 				<div class="content">
-					<p>officia unde omnis</p>
-					<p>officia unde omnis</p>
-					<p>officia unde omnis</p>
+					<p>
+						Au cours des trois dernières années, j'ai eu l'opportunité de mettre en pratique mes connaissances fraîchement acquises à travers des projets concrets. Mon parcours de reconversion m'a permis de développer des compétences pointues dans la création et la maintenance de sites web, ainsi que dans la conception d'applications web et mobiles.
+					</p>
+					
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Compétences clés </h2>
+				<div class="content">
+					<ul>
+						<li>Langages : HTML, CSS, Sass, JavaScript, Java, Php</li>
+						<li>Frameworks : React, Angular, Spring, Symfony, Laravel</li>
+						<li>Conception et gestion de bases de données : MySQL</li>
+						<li>Développement mobile : React Native</li>
+					</ul>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Approche professionnelle </h2>
+				<div class="content">
+					<p>
+						Mon approche professionnelle repose sur la recherche constante d'amélioration et l'adaptation aux nouvelles technologies. J'ai une passion pour la résolution de problèmes complexes et suis constamment à la recherche de nouvelles opportunités pour approfondir mes compétences et rester à jour dans un secteur en constante évolution.
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Objectif professionnel</h2>
+				<div class="content">
+					<p>
+						En tant que développeur web, mon objectif est de contribuer au succès des projets en fournissant des solutions techniques robustes et innovantes. Ma démarche consiste à collaborer de manière proactive avec les équipes, à résoudre des défis complexes et à garantir la qualité des produits développés.
+					</p>
+					<p>
+						Je suis actuellement à la recherche de nouvelles opportunités professionnelles qui me permettront de mettre à profit mes compétences et mon expérience dans un environnement stimulant.
+					</p>
+					<p>
+						N'hésitez pas à consulter mon portfolio pour découvrir certains de mes projets et réalisations. Je me tiens à votre disposition pour discuter de la manière dont ma passion et mon expertise pourraient contribuer à vos projets.
+					</p>
 				</div>
 			</section>
 		</main>
@@ -62,6 +95,9 @@ import Hero from '../components/Hero.astro';
 </BaseLayout>
 
 <style>
+	.cv{
+		color: black;
+	}
 	.about {
 		display: flex;
 		flex-direction: column;

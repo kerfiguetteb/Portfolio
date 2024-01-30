@@ -9,9 +9,8 @@ tags:
   - Spring
   - Angular
   - TypeScript
-  - JavaScript
-  - SCSS
-  - Bootstrap
+
+
 ---
 
 ## Le Cuistot
@@ -22,17 +21,6 @@ Le cuistot est une application qui permet de créer des recettes via un compte u
 
 L'application est en cours de développement et des nouvelles fonctionnalités reste à venir
 
-### Front-end
-
-#### Fonctionalités :
-
-
-
- 
-
-### Back-end
-
-#### Fonctionalités :
 
 
 
