@@ -14,12 +14,14 @@ import Icon from '../components/Icon.astro';
 				title="Qui est Outman?"
 				tagline="Merci d'être passé. Lisez ci-dessous pour en savoir plus sur moi et mon parcours."
 			>
+			<div class="img-center">
 				<img
-					width="1553"
-					height="873"
-					src="/assets/at-work.jpg"
+					width="553px"
+					height="573px"
+					src="/profile.png"
 					alt="photo de profil d'outman"
 				/>
+			</div>
 				<CallToAction href="/assets/CV.pdf">
 					Télécharger mon cv
 					<Icon icon="rocket-launch" size="1.2em" />
@@ -107,7 +109,6 @@ import Icon from '../components/Icon.astro';
 	img {
 		margin-top: 1.5rem;
 		border-radius: 1.5rem;
-		box-shadow: var(--shadow-md);
 	}
 
 	section {
